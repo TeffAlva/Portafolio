@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio N01</title>
+        <link rel="stylesheet" href="./estilo.css">
+        <script src="https://kit.fontawesome.com/1a0d1339d7.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Encabezado -->
+        <header>
+            <img class="logo" src="./Imagenes-svg/Logo-alura.svg" alt="logo-alura">
+        </header>
+        <!-- Cuerpo -->
+        <main>
+            <section class="primero">
+                <textarea class="text-area" placeholder="Ingresa el texto aquí"></textarea>
+                <div class="informacion">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <p class="texto-aviso">Solo letras minúsculas y sin acentos.</p>
+                </div>
+                
+                <div class="botones">
+                    <button type="submit" class="btn-encriptar">Encriptar</button>
+                    <button type="submit" class="btn-desencriptar">Desencriptar</button>              
+                </div>
+            </section>
+            <section class="segundo">
+                <div class="mensaje-blanco">
+                    <img src="./Imagenes-svg/Muneco-alura.svg" alt="munieco" class="img-munieco">
+                    <div class="texto-blanca">
+                        <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                        <p class="texto-dos">Ingresa el texto que desees encriptar o desencriptar</p>
+                    </div>
+                </div>
+                <textarea type="mensaje" class="evaluar" readonly></textarea>
+                <button type="submit" class="btn-copiar">Copiar</button>
+            </section>
+        </main>
+        <!-- Pie de página -->
+       <footer>
+        <div class="completo-pie">
+            <div class="copy-tex">
+                <p class="derechos">&copy; copyright 2023 - Desarrollado por Steffani Alvarez</p>
+            </div>
+            <div class="iconos-pie">
+                <a href="https://www.linkedin.com/in/steffani-alvarez-geronimo-169934163/" target="_blank">
+                    <img src="./Imagenes-svg/Linkedln.svg" alt="Logo-Linkedin" class="linked">
+                </a>
+                <a href="https://github.com/TeffAlva" target="_blank">
+                    <img src="./Imagenes-svg/GitHub.svg" alt="Logo-Github" class="git">
+                </a>  
+            </div>
+        </div>
+        </footer>
+        <!-- Código JS -->
+        <script src="codigo.js"></script>
+    </body>
+</html>
